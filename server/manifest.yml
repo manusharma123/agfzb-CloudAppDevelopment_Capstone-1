@@ -1,11 +1,11 @@
 applications:
   - name: djangoapp
     routes:
-      - route: innovacar.mybluemix.net
+      - route: car.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: innovacar.mybluemix.net/static
+      - route: car.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
